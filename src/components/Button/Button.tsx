@@ -8,7 +8,7 @@ function Button({ text, className, ...base }: ButtonProps) {
   return (
     <button
       className={cn(
-        'bg-tert-accent border-sec-accent rounded-md border-4 p-4 font-bold text-black transition-all',
+        'bg-tert-accent border-sec-accent rounded-md border-4 p-4 text-black transition-all',
         'hover:bg-sec active:border-sec-accent hover:border-transparent active:scale-110',
         className,
       )}

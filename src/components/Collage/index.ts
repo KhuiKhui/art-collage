@@ -1,3 +1,4 @@
 import Collage from './Collage';
+import CollageItem from './CollageItem/CollageItem';
 
-export default Collage;
+export { CollageItem, Collage };
